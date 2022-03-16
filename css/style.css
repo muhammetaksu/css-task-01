@@ -1,0 +1,488 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(34, 40, 49);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(238, 238, 238);
+}
+
+a {
+    text-decoration: none;
+}
+
+/**************** HEADER - start ****************/
+header {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.header-h1-nav-cont {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* LOGO */
+.logo-cont-properties {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.header-logo-prop {
+    width: 95px;
+    height: 95px;
+}
+
+
+/* NAV */
+.nav-cont-prop {
+    display: flexbox;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+    padding: 0%;
+    margin: 4px;
+}
+
+.nav-ul-container {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0%;
+}
+
+.nav-li-prop {
+    padding: 3px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: rgb(85, 104, 134);
+    border-radius: 5px;
+}
+
+.nav-a-prop {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: large;
+}
+
+/* HEAD */
+ .h1-cont-properties {
+    display: flex;
+    margin: 4px;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+}
+
+.header-h1 {
+    text-align: center;
+    font-size: 250%;
+    letter-spacing: 25px;
+    margin: auto;
+    padding-top: 6px;
+    cursor: default;
+}
+
+.header-h1:hover {
+    color: goldenrod;
+}
+
+/***************** HEADER - end ****************/
+
+
+.aside-section-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/***************** ASIDE - start ****************/
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.side-h2-cont {
+    display: flexbox;
+    cursor: default;
+}
+
+.side-h2-prop {
+    background-color: rgb(85, 104, 134);
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 0;
+    padding: 10px;
+    padding-bottom: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.side-h2-hover:hover {
+    color: goldenrod;
+}
+
+.side-a-cont-prop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.side-a-prop {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    letter-spacing: 3px;
+    margin: 10px;
+    line-height: 100px;
+}
+
+.side-a-prop:hover {
+    background-color: rgb(85, 104, 134);
+    border-radius: 5px;
+}
+
+/***************** ASIDE - end ****************/
+
+/***************** SECTION - start ****************/
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 85%;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+    margin: 4px;
+}
+
+
+
+/* h2 - prop */
+.section-h2-cont-prop {
+    justify-content: center;
+    display: flexbox;
+}
+
+.section-h2-prop {
+    background-color: rgb(85, 104, 134);
+    text-align: center;
+    font-size: xx-large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 6px;
+    letter-spacing: 6px;
+    cursor: default;
+}
+
+.section-h2-hover:hover {
+    color: goldenrod;
+}
+/* h2 - prop end*/
+
+/* section iframes prop */
+.section-iframes-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-iframe-p-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 40, 58);
+    width: 466px;
+    height: auto;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.section-p-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.section-iframe-p-prop {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    cursor: default;
+    margin: auto;
+    text-align: center;
+}
+/***************** SECTION - end ****************/
+
+/***************** FOOTER - start ****************/
+
+.footer-cont {
+    display: flex;
+    background-color: rgb(57, 62, 70);
+    margin: 4px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* LOGO */
+.footer-logo-cont {
+    display: flex;
+    margin: 10px;
+    width: 15%;
+    justify-content: center;
+}
+
+.footer-logo-prop {
+    width: 150px;
+    height: 150px;
+}
+
+/* LINKS */
+.footer-ul-cont {
+    display: flexbox;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+}
+
+.footer-li-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.footer-li-prop {
+    list-style-type: none;
+}
+
+.footer-a-prop {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: x-large;
+}
+
+/***************** FOOTER - end ****************/
+
+/*********************** MUSICS - page - start *************************/
+
+.aside-section-cont-musicpage {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Section - Music page */
+
+/* sadece alt ve üst bolşuklar için */
+#bar-1 {
+    margin-top: 40px;
+}
+#bar-4 {
+    margin-bottom: 30px;
+}
+
+
+
+.section-musics-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 85%;
+    background-color: rgb(57, 62, 70);
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.h3-cont {
+    display: flexbox;
+}
+
+.section-h3-prop {
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    padding: 4px;
+    letter-spacing: 6px;
+    cursor: default;
+}
+
+.bar-h3-cont {
+    background-color: rgb(67, 90, 77);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.iframes-bar-cont {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iframe-cont {
+    display: flex;
+    background-color: rgb(38, 40, 58);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    width: 410px;
+}
+
+/*********************** MUSICS - page - end *************************/
+
+/*********************** ABOUT-US - page - start *************************/
+.section-cont-aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.section-h2-cont-aboutus {
+    display: flexbox;
+    background-color: rgb(57, 62, 70);
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.section-h2-prop-aboutus {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+    font-size: 250%;
+    text-align: center;
+    margin: auto;
+}
+
+.section-h3-p-cont {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 62, 70);
+    border-radius: 10px;
+    margin: 10px;
+    width: 800px;
+}
+
+.section-h3-prop-aboutus {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    letter-spacing: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.section-p-prop-aboutus {
+    color: rgb(238, 238, 238);
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+/* footer - about us */
+
+.footer-cont-aboutus {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+/*********************** ABOUT-US - page - end *************************/
+
+/*********************** CONTACT - page - start *************************/
+
+.section-cont-contactpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.section-h2-cont-contact {
+    display: flexbox;
+    background-color: rgb(57, 62, 70);
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.section-h2-prop-contact {
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+    font-size: 250%;
+    text-align: center;
+    margin: auto;
+}
+
+.section-contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 62, 70);
+    align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-p-prop-contact {
+    color: rgb(238, 238, 238);
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.section-a-prop-contact {
+    color: rgb(135, 174, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+
+.footer-cont-contactpage {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+/*********************** CONTACT - page - end *************************/
+
+
+

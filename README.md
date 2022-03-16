@@ -1,3 +1,3 @@
-# **css-task-1**
+# **css-task-01**
 
 ***Kodluyoruz Front-End eğitimi kapsamında oluşturduğum birinci CSS ödevim.***

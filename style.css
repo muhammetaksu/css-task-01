@@ -353,7 +353,7 @@ li:hover {
     padding: 8px;
     margin: 8px;
     border-radius: 10px;
-    width: 410px;
+    width: 362px;
 }
 
 /*********************** MUSICS - page - end *************************/
@@ -364,7 +364,7 @@ li:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px;
+    margin: 45px;
 }
 
 .section-h2-cont-aboutus {

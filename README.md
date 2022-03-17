@@ -1,3 +1,3 @@
 # **css-task-01**
 
-***Kodluyoruz Front-End eğitimi kapsamında oluşturduğum birinci CSS ödevim.***
+https://muhammetaksu.github.io/css-task-01/index.html

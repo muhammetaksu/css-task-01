@@ -1,4 +1,6 @@
-# **css-task-01**
+# Müzik Dükkanı
+
+> [Kodluyoruz](https://www.kodluyoruz.org/) CSS eğitimi kapsamında hazırlamış olduğum ödevim.
 
 > *Hazırlamış olduğum ödeve aşağıdaki linkten ulaşabilirsiniz.*
 
